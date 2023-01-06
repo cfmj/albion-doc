@@ -1,0 +1,13 @@
+.history
+.idea
+node_modules
+.DS_Store
+dist
+public
+dist-ssr
+*.local
+yarn*
+ts-out-dir
+
+pnpm*
+.pnpm-debug*
