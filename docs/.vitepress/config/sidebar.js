@@ -7,28 +7,29 @@
 function walkthrough() {
   return [
     {
+      text: '简介',
+      items: [
+        {
+          text: '攻略介绍',
+          link: '/walkthrough/',
+        },
+      ],
+    },
+    {
       text: '说明书',
       collapsible: true,
       items: [
         {
-          text: '简介',
-          link: '/walkthrough/instructions/',
+          text: '说明书',
+          link: '/walkthrough/instructions',
         },
         {
-          text: '游戏特色',
-          link: '/walkthrough/instructions/1.md',
+          text: '附录一 - 名词对照表',
+          link: '/walkthrough/appendix-1',
         },
         {
-          text: '角色成长系统',
-          link: '/walkthrough/instructions/2.md',
-        },
-        {
-          text: '世界地图与阵营',
-          link: '/walkthrough/instructions/3.md',
-        },
-        {
-          text: '地图区域与玩家对战规则',
-          link: '/walkthrough/instructions/4.md',
+          text: '附录二 - 完成自己的Build',
+          link: '/walkthrough/appendix-2',
         },
       ],
     },

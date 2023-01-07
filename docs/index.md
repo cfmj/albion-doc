@@ -10,9 +10,12 @@ head:
       content: albion-doc
 # Hero Section
 hero:
-  name: 阿尔比恩攻略
-  text:
+  name: 阿尔比恩ol
+  text: 中文攻略
   tagline: 阿尔比恩ol 攻略集合
+  image:
+    src: /20230107155013.png
+    alt: vue3-admin-plus
   actions:
     - theme: brand
       text: 马上开始   ==>

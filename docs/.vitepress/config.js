@@ -24,6 +24,10 @@ export default defineConfig({
     logo: '/easternwaves.svg',
     // 不显示图标旁边的标题
     siteTitle: false,
+
+    sidebar: sidebar,
+    nav: nav,
+
     // docsBranch: 'master',
     outlineTitle: '在本页面',
     /* 
@@ -47,8 +51,6 @@ export default defineConfig({
     smoothScroll: true,
     search: true,
     searchMaxSuggestions: 10,
-    sidebar: sidebar,
-    nav: nav,
     // algolia: {
     //   appId: '176Y9V7LED',
     //   apiKey: '925411d8d3d357516c0e3a3aa2c4f292',
