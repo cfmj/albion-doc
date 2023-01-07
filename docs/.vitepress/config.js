@@ -10,7 +10,10 @@ export default defineConfig({
 
   // appearance: true,
   lastUpdated: true,
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/easternwaves.png' }]],
+  head: [
+    ['meta', { name: 'theme-color', content: '#a243dd' }],
+    // ['link', { rel: 'icon', type: 'image/svg+xml', href: '/easternwaves.png' }],
+  ],
   // outDir: '../public', // 指定 vitepress build 的输出目录 默认docs/.vitepress/dist
   // 这将在 HTML 页面中呈现为一个 <HTML lang="en-us"> 标记。
   locales: {
@@ -21,9 +24,9 @@ export default defineConfig({
 
   // 主题配置
   themeConfig: {
-    logo: '/easternwaves.svg',
+    logo: '/logo2.png',
     // 不显示图标旁边的标题
-    siteTitle: false,
+    // siteTitle: false,
 
     sidebar: sidebar,
     nav: nav,
