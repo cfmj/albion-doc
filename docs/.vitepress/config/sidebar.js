@@ -3,140 +3,70 @@
     如不设置其他匹配默认所有页面按照'/'匹配下的侧边导航栏展示。
     text代表标题，items代表子集 
 */
-const sidebar = {
-  '/views': [
+
+function walkthrough() {
+  return [
     {
-      text: '开始',
+      text: '说明书',
+      collapsible: true,
       items: [
         {
           text: '简介',
-          link: '/views/profiles.html',
+          link: '/walkthrough/instructions/',
         },
         {
-          text: '目录结构',
-          link: '/views/catalogs.html',
+          text: '游戏特色',
+          link: '/walkthrough/instructions/1.md',
         },
         {
-          text: '关于文档',
-          link: '/views/about_docs.html',
-        },
-      ],
-    },
-    {
-      text: '规范',
-      items: [
-        {
-          text: '规范',
-          link: '/views/specification/specification.html',
+          text: '角色成长系统',
+          link: '/walkthrough/instructions/2.md',
         },
         {
-          text: '代码规范',
-          link: '/views/specification/code_style.html',
+          text: '世界地图与阵营',
+          link: '/walkthrough/instructions/3.md',
         },
         {
-          text: 'git 规范',
-          link: '/views/specification/git.html',
+          text: '地图区域与玩家对战规则',
+          link: '/walkthrough/instructions/4.md',
         },
       ],
     },
     {
-      text: '组件',
+      text: '采集',
+      collapsible: true,
       items: [
         {
-          text: '组件',
-          link: '/views/components/',
-        },
-      ],
-    },
-    {
-      text: 'markdown',
-      items: [
-        {
-          text: 'markdown',
-          link: '/views/markdown.html',
-        },
-      ],
-    },
-    {
-      text: '相关链接',
-      items: [
-        {
-          text: '相关链接',
-          link: '/views/links.html',
-        },
-      ],
-    },
-    {
-      text: '相关链接222',
-      items: [
-        {
-          text: '相关链接222',
-          link: '/views/thirdPartyPlugins/thirdPartyPlugins.html',
-        },
-      ],
-    },
-    {
-      text: 'Node前置知识',
-
-      items: [
-        {
-          text: 'Node前置知识',
-          link: '/views/specification/specification.html',
-        },
-        {
-          text: '第三方插件',
-          link: '/views/specification/code_style.html',
-        },
-        {
-          text: '第三方插件',
-          link: 'https://baidu.com',
-          target: '_self',
-          rel: '',
-        },
-      ],
-    },
-    {
-      text: '第三方插件',
-      items: [
-        {
-          text: '第三方插件2',
-          link: '/views/specification/specification.html',
-        },
-        {
-          text: '第三方插件',
-          link: '/views/specification/code_style.html',
-        },
-        {
-          text: '第三方插件',
-          link: 'https://google.com',
-          target: '_self',
-          rel: '',
-        },
-      ],
-    },
-  ],
-  '/links/': [
-    {
-      text: '组件',
-      items: [
-        {
-          text: '组件',
+          text: '钓鱼',
           link: '/links/docs.html',
         },
       ],
     },
-  ],
-  '/project/': [
     {
-      text: '项目链接',
+      text: '工匠',
+      collapsible: true,
       items: [
         {
-          text: '',
-          link: '/project/links.html',
+          text: '钓鱼',
+          link: '/links/docs.html',
         },
       ],
     },
-  ],
+    {
+      text: '地图',
+      collapsible: true,
+      items: [
+        {
+          text: '阿瓦隆',
+          link: '/links/docs.html',
+        },
+      ],
+    },
+  ]
+}
+
+const sidebar = {
+  '/walkthrough/': walkthrough(),
 }
 
 export default sidebar

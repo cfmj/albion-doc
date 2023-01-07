@@ -16,10 +16,10 @@ hero:
   actions:
     - theme: brand
       text: 马上开始   ==>
-      link: /views/profiles.html
-    - theme: alt
-      text: 简介
-      link: /views/profiles.html
+      link: /walkthrough/
+    # - theme: alt
+    #   text: 简介
+    #   link: /views/profiles.html
 
 # 特性分栏
 features:
