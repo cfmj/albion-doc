@@ -51,6 +51,7 @@ export default defineConfig({
     smoothScroll: true,
     search: true,
     searchMaxSuggestions: 10,
+
     // algolia: {
     //   appId: '176Y9V7LED',
     //   apiKey: '925411d8d3d357516c0e3a3aa2c4f292',
