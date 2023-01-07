@@ -33,36 +33,36 @@ function walkthrough() {
         },
       ],
     },
-    {
-      text: '采集',
-      collapsible: true,
-      items: [
-        {
-          text: '钓鱼',
-          link: '/links/docs.html',
-        },
-      ],
-    },
-    {
-      text: '工匠',
-      collapsible: true,
-      items: [
-        {
-          text: '钓鱼',
-          link: '/links/docs.html',
-        },
-      ],
-    },
-    {
-      text: '地图',
-      collapsible: true,
-      items: [
-        {
-          text: '阿瓦隆',
-          link: '/links/docs.html',
-        },
-      ],
-    },
+    // {
+    //   text: '采集',
+    //   collapsible: true,
+    //   items: [
+    //     {
+    //       text: '钓鱼',
+    //       link: '/links/docs.html',
+    //     },
+    //   ],
+    // },
+    // {
+    //   text: '工匠',
+    //   collapsible: true,
+    //   items: [
+    //     {
+    //       text: '钓鱼',
+    //       link: '/links/docs.html',
+    //     },
+    //   ],
+    // },
+    // {
+    //   text: '地图',
+    //   collapsible: true,
+    //   items: [
+    //     {
+    //       text: '阿瓦隆',
+    //       link: '/links/docs.html',
+    //     },
+    //   ],
+    // },
   ]
 }
 
