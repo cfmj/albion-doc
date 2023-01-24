@@ -5,7 +5,7 @@ import sidebar from './config/sidebar'
 export default defineConfig({
   base: '/albion-doc/', // 网站基本路径
   title: '阿尔比恩中文攻略', // 网站的标题。这将是所有页面标题的后缀，并显示在导航栏中
-  titleTemplate: 'Constructed by vitepress',
+  titleTemplate: '阿尔比恩中文攻略站',
   description: '阿尔比恩中文攻略', // 首页的描述
 
   // appearance: true,
@@ -55,10 +55,10 @@ export default defineConfig({
     search: true,
     searchMaxSuggestions: 10,
 
-    // algolia: {
-    //   appId: '176Y9V7LED',
-    //   apiKey: '925411d8d3d357516c0e3a3aa2c4f292',
-    //   indexName: 'albion-doc',
-    // },
+    algolia: {
+      appId: 'JXJ92XPO74',
+      apiKey: '383d0da76be1bcc585a6c42d9be71174',
+      indexName: 'albion',
+    },
   },
 })
