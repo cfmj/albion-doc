@@ -3,7 +3,7 @@ import nav from './config/nav'
 import sidebar from './config/sidebar'
 
 export default defineConfig({
-  base: '/albion-doc/', // 网站基本路径
+  base: '/', // 网站基本路径 默认'/'
   title: '阿尔比恩中文攻略', // 网站的标题。这将是所有页面标题的后缀，并显示在导航栏中
   titleTemplate: '阿尔比恩中文攻略站',
   description: '阿尔比恩中文攻略', // 首页的描述

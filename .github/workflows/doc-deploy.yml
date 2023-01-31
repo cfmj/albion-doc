@@ -1,22 +1,22 @@
-name: Build and Deploy
-on: [push]
-jobs:
-  # 任务名称
-  build-and-deploy:
-    # 执行的环境，默认是在最新版本的Ubuntu系统
-    runs-on: ubuntu-latest
-    # 执行的步骤
-    steps:
-      - name: Checkout
-        uses: actions/checkout@master
+# name: Build and Deploy
+# on: [push]
+# jobs:
+#   # 任务名称
+#   build-and-deploy:
+#     # 执行的环境，默认是在最新版本的Ubuntu系统
+#     runs-on: ubuntu-latest
+#     # 执行的步骤
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@master
 
-      - name: vuepress-deploy
-        uses: jenkey2011/vuepress-deploy@master
-        env:
-          ACCESS_TOKEN: ${{ secrets.GH_KEY }}
-          TARGET_REPO: cfmj/albion-doc
-          TARGET_BRANCH: gh-pages
-          BUILD_SCRIPT: yarn && yarn build
-          # docs/.vitepress/dist
-          BUILD_DIR: docs/.vitepress/dist
-          # CNAME: https://www.xxx.com
+#       - name: vuepress-deploy
+#         uses: jenkey2011/vuepress-deploy@master
+#         env:
+#           ACCESS_TOKEN: ${{ secrets.GH_KEY }}
+#           TARGET_REPO: cfmj/albion-doc
+#           TARGET_BRANCH: gh-pages
+#           BUILD_SCRIPT: yarn && yarn build
+#           # docs/.vitepress/dist
+#           BUILD_DIR: docs/.vitepress/dist
+#           # CNAME: https://www.xxx.com
